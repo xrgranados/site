@@ -1,0 +1,242 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url("fonts.css");
+
+* {
+	margin:0;
+	padding:0;
+	border:0;}
+	
+body {
+	width:1000px;
+	margin:0 auto;
+	font-family:'ApexBook', Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#333;}
+	
+.clear {
+	clear:both;}
+	
+a {
+	background:#cd2b58;
+	color:#FFF;
+	text-decoration:none;
+	padding:1px;}
+	
+a:hover {
+	background:#616161;}
+	
+strong {
+	color:#cd2b58;
+	text-transform:uppercase;}
+	
+h1 {
+	font-size:25px;
+	color:#616161;
+	border-top:#cd2b58 1px solid;
+	padding:5px 0 0 0;
+	font-weight:normal;
+	text-transform:uppercase;
+	margin:0 0 20px 0;}
+	
+h2 {
+	font-size:20px;
+	margin:0 0 20px 0;
+	font-weight:normal;
+	text-transform:uppercase;
+	color:#cd2b58}
+	
+p {
+	margin:0 0 20px 0;
+	line-height:150%;}
+	
+#header {
+	background:url(../img/header.jpg);
+	height:124px;
+	margin:0 0 35px 0;}
+	
+#left {
+	float:left;
+	width:700px;}
+	
+#left ul {
+	list-style-type:square;
+	margin:0 0 20px 15px;}
+	
+#left ul li {
+	margin:0 0 5px 0;
+	padding:0 0 10px 0;}
+	
+#right {
+	float:right;
+	width:263px;}
+	
+#menu {
+	margin:0 0 40px 0;}
+	
+#menu ul {
+	list-style-type:none;}
+	
+#menu ul li {
+	margin:0 0 13px 0;
+	background:#ebebeb;
+	border:1px solid #dcdcdc;
+	text-transform:uppercase;
+	}
+	
+#menu ul li a {
+	transition: background 0.1s linear;
+	-moz-transition: background 0.1s linear;
+	-webkit-transition: background 0.1s linear;
+	-o-transition: background 0.1s linear;
+	padding:12px 10px 5px 50px;
+	height:22px;
+	color:#333;
+	text-decoration:none;
+	display:block;}
+	
+#menu ul li a:hover {
+	transition: background 0.1s linear;
+	-moz-transition: background 0.1s linear;
+	-webkit-transition: background 0.1s linear;
+	-o-transition: background 0.1s linear;
+	color:#FFF;}
+	
+#menu a.programa {
+	background:url(../img/ico-programa.png) no-repeat top left;}
+	
+#menu a:hover.programa {
+	background:url(../img/ico-programa.png) #cd2b58 no-repeat bottom left;}
+	
+#menu a.extrato {
+	background:url(../img/ico-extrato.png) no-repeat top left;}
+	
+#menu a:hover.extrato {
+	background:url(../img/ico-extrato.png) #cd2b58 no-repeat bottom left;}
+	
+#menu a.regulamento {
+	background:url(../img/ico-regulamento.png) no-repeat top left;}
+	
+#menu a:hover.regulamento {
+	background:url(../img/ico-regulamento.png) #cd2b58 no-repeat bottom left;}
+	
+#menu a.duvidas {
+	background:url(../img/ico-duvidas.png) no-repeat top left;}
+	
+#menu a:hover.duvidas {
+	background:url(../img/ico-duvidas.png) #cd2b58 no-repeat bottom left;}
+	
+h2.login {
+	background:url(../img/backg-login.png) no-repeat;
+	padding:13px 10px 15px 50px;
+	display:block;
+	color:#FFF;
+	font-weight:normal;
+	text-transform:uppercase;
+	font-size:14px;}
+	
+label {
+	display:block;}
+	
+input[type=text] {
+	width:220px;
+	margin:0 0 15px 0;
+	font-style:italic;
+	padding:10px 10px 10px 30px;
+	display:block;
+	background:url(../img/ico-arrow.png) left no-repeat #ebebeb;
+	border:1px solid #dcdcdc;}
+
+input[type=text]:focus {
+	background:url(../img/ico-arrow2.png) left no-repeat #ebebeb;
+	border:1px solid #FC0}
+	
+input[type=submit] {
+	background:url(../img/backg-degrade.png) repeat-x;
+	color:#FFF;
+	font-size:12px;
+	padding:7px;
+	text-transform:uppercase;
+	float:right;
+	cursor:pointer;}
+	
+input[type=submit]:hover {
+	background:#616161;}
+	
+a.prata {
+	float:left;
+	transition: background 0.1s linear;
+	-moz-transition: background 0.1s linear;
+	-webkit-transition: background 0.1s linear;
+	-o-transition: background 0.1s linear;
+	width:198px;
+	height:295px;
+	margin:0 0 20px 0;
+	background:url(../img/banner-prata.jpg) top no-repeat;
+	display:block;
+	cursor:crosshair;}
+	
+a:hover.prata {
+	transition: background 0.1s linear;
+	-moz-transition: background 0.1s linear;
+	-webkit-transition: background 0.1s linear;
+	-o-transition: background 0.1s linear;
+	background:url(../img/banner-prata.jpg) bottom;}
+	
+a.ouro {
+	margin:0 0 0 50px;
+	float:left;
+	transition: background 0.1s linear;
+	-moz-transition: background 0.1s linear;
+	-webkit-transition: background 0.1s linear;
+	-o-transition: background 0.1s linear;
+	width:198px;
+	height:295px;
+	background:url(../img/banner-ouro.jpg) top no-repeat;
+	display:block;
+	cursor:crosshair;}
+	
+a:hover.diamante {
+	transition: background 0.1s linear;
+	-moz-transition: background 0.1s linear;
+	-webkit-transition: background 0.1s linear;
+	-o-transition: background 0.1s linear;
+	background:url(../img/banner-diamante.jpg) bottom;}
+	
+a.diamante {
+	float:right;
+	transition: background 0.1s linear;
+	-moz-transition: background 0.1s linear;
+	-webkit-transition: background 0.1s linear;
+	-o-transition: background 0.1s linear;
+	width:198px;
+	height:295px;
+	background:url(../img/banner-diamante.jpg) top no-repeat;
+	display:block;
+	cursor:crosshair;}
+	
+a:hover.ouro {
+	transition: background 0.1s linear;
+	-moz-transition: background 0.1s linear;
+	-webkit-transition: background 0.1s linear;
+	-o-transition: background 0.1s linear;
+	background:url(../img/banner-ouro.jpg) bottom;}
+	
+table {
+	margin:0 0 20px 0;}
+	
+table td {
+	padding:5px;
+	border-bottom:1px dotted #CCC;}
+	
+h2.accordion{ cursor: pointer; }
+div.accordion{ display: none; }
+	
+.destaque {
+	font-size:16px;
+	color:#FFF;
+	background:#cd2b58;
+	padding:3px 10px;
+	border-radius:5px;}
+	

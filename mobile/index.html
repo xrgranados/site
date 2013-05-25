@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Equus Inverno 2013</title>
+        <style type="text/css" media="screen">@import "jqtouch/jqtouch.min.css";</style>
+        <style type="text/css" media="screen">@import "themes/theme.css";</style>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+        <script src="jqtouch/jqtouch.min.js" type="application/x-javascript" charset="utf-8"></script>
+        <!--GOOGLE ANALYTICS-->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-29190135-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<!--GOOGLE ANALYTICS-->
+        <script type="text/javascript" charset="utf-8">
+            var jQT = new $.jQTouch({
+                icon		: 'codropsIcon.png',
+                cacheGetRequests: true,
+                addGlossToIcon	: false,
+                startupScreen	: 'codropsSplash.png',
+                statusBar	: 'black',
+                preloadImages: [
+                    'themes/img/back_button.png',
+                    'themes/img/back_button_clicked.png',
+                    'themes/img/button_clicked.png',
+                    'themes/img/grayButton.png',
+                    'themes/img/whiteButton.png',
+                    'themes/img/loading.gif'
+                ]
+            });
+        </script>
+		<script src="jquery.gallery.js" type="application/x-javascript" charset="utf-8"></script>
+        <style type="text/css" media="screen">
+            #about {
+                padding: 100px 10px 40px;
+                text-shadow: rgba(255, 255, 255, 0.3) 0px -1px 0;
+                font-size: 13px;
+                text-align: center;
+                background: #161618;
+            }
+            #about p {
+                margin-bottom: 8px;
+            }
+            #about a {
+                color: #d9ddbc;
+                font-weight: bold;
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="about" class="selectable">
+        <p><a href="#" class="grayButton goback">Voltar</a></p>
+	  
+
+  <h2>GUATEMALA</h2>
+    
+    <p><strong>Pradera Concepción</strong><br>
+C.C. Pradera Concepción, L.138<br>
+Km 15 . 5 Carretera a El Salvador <br>
+Finca Condado Concepción<br>
+Tel: (502) 6637-1010 & 6637-1012<br>
+<a href="mailto:pradera@equus.gt">pradera@equus.gt</a><br>
+<a href="http://www.equus.gt" target="_blank">www.equus.gt</a></p>
+
+<p><strong>Miraflores</strong><br>
+C.C. Miraflores, L.166<br>
+21 avenida 4-32 zona 11<br>
+Tel: (502) 2474-8308 & 2474-2557<br>
+<a href="mailto:miraflores@equus.gt">miraflores@equus.gt</a><br>
+<a href="http://www.equus.gt" target="_blank">www.equus.gt</a></p>
+        </div>
+        <!-- The list of albums -->
+        <div id="albums_container" class="current">
+            <div class="toolbar">
+                <h1>EQUUS &#0149; Guatemala</h1>
+                <a class="button slideup" id="infoButton" href="#about">Lojas</a>
+            </div>
+            <div><img src="banner.jpg" width="100%" height="auto" alt="Inverno 2013"></div>
+            <div class="loader" style="display:none;"></div>
+          <ul id="albums" class="edgetoedge" style="display:none;">
+            </ul>
+             <ul>
+             <li><a href="http://www.equus.com.br/blog" target="_blank">BLOG</a></li>
+             <li><a href="http://www.facebook.com/equus.guatemala" target="_blank">FACEBOOK</a></li>
+            </ul>
+        </div>
+        <!-- The list of images (thumbs) -->
+        <div id="thumbs_container">
+            <div class="toolbar">
+                <h1>Galeria</h1>
+                <a class="back" href="#albums_container">Voltar</a>
+                <a class="button slideup" id="infoButton" href="#about">Lojas</a>
+            </div>
+            <div class="loader" style="display:none;"></div>
+            <ul id="thumbs" class="thumbView" style="display:none;">
+            </ul>
+        </div>
+		<!-- The single image container -->
+        <div id="photo_container">
+            <div class="toolbar">
+                <h1>Imagem</h1>
+                <a class="back" href="#thumbs_container">Voltar</a>
+                <a class="button slideup" id="infoButton" href="#about">Lojas</a>
+            </div>
+            <div class="loader" style="display:none;"></div>
+            <div id="theimage" class="singleimage"></div>
+            <div class="descriptionWrapper">
+                <p id="description"></p>
+                <div id="prev" style="display:none;"></div>
+                <div id="next" style="display:none;"></div>
+            </div>
+        </div>
+    </body>
+</html>

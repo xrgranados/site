@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.left {
+	float:left;
+	width:480px;}
+	
+.right {
+	float:right;}
+
+#fhd1 {
+	background:url(bg1.jpg) no-repeat;
+	height:646px}
+	
+#fhd2 {
+	background:url(bg2.jpg) no-repeat;
+	height:646px}
+	
+#fhd3 {
+	background:url(bg3.jpg) no-repeat;
+	height:646px}
+	
+#fhd1 a, #fhd2 a, #fhd3 a {
+	color:#000;}
+	
+#logo {
+	float:left;}
+	
+#countdown {
+	float:left;
+	display:block;
+	width:265px;
+	height:56px;
+	background:url(bg-faltam.png) no-repeat;
+	margin:85px 0 0 30px;}
+	
+#countdown .numero {
+	margin:27px 0 0 9px;
+	font-size:20px}
+	
+#video {
+	width:400px;
+	height:225px;
+	float:left;
+	display:block;
+	margin:15px 0 0 30px;}
+	
+.slogan {
+	font-family: 'ApexLightItalic';
+	text-align:right;
+	color:#FFF;
+	font-size:32px;
+	text-transform:uppercase;
+	margin:50px 30px 0 0;}
+	
+#content {
+	width:320px;
+	height:380px;
+	background:url(bg-content.png) repeat;
+	float:right;
+	margin:70px 30px 0 0;
+	color:#FFF;
+	padding:20px;}
+	
+#menu {
+	margin:-60px 0 10px -50px}
+	
+#menu ul {
+	list-style:none;
+	font-size:14px;
+	text-transform:uppercase;
+	line-height:150%}
+	
+#menu ul li {
+	margin:0 0 16px 0;}
+	
+#menu ul li a {
+	padding:8px;
+	color:#353535;
+	background:#FFF;}
+	
+#menu ul li a:hover {
+	background:url(bg-menu.png) #ed145b repeat;
+	text-decoration:none;
+	color:#FFF;}
+	
+#sapatilha {
+	position:absolute;
+	top:835px;
+	left:850px;
+	width:200px;}
+	
+#lipgloss {
+	margin:0 0 0 -70px;
+	float:left;}
+	

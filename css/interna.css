@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.col1, .col2, .col3, .col4 {
+	margin:20px 0;}
+
+.col1 {
+	width:380px;
+	float:left;}
+	
+.col2 {
+	width:600px;
+	float:right;}
+	
+.col3 {
+	width:220px;
+	float:left;}
+	
+.col4 {
+	width:730px;
+	float:right;}
+	
+.lojas {
+	width:22%;
+	float:left;
+	margin:0 2% 0 0;}
+	
+.mapa {
+	background:url(../img/ico-pin.png) right no-repeat;
+	padding:0 20px 0 0;}
+	
+h2.accordion, h2.accordion2, h2.accordion3, h2.accordion4, h2.accordion5, h2.accordion6, h2.accordion7, h2.accordion8, h2.accordion9, h2.accordion10, h2.accordion11, h2.accordion12, h2.accordion13, h2.accordion14, h2.accordion15, h2.accordion16, h2.accordion17, h2.accordion18, h2.accordion19, h2.accordion20, h2.accordion21 { cursor: pointer; transition: background 0.3s linear;
+	-moz-transition: background 0.3s linear;
+	-webkit-transition: background 0.3s linear;
+	-o-transition: background 0.3s linear; }
+
+h2.accordion:hover, h2.accordion2:hover, h2.accordion3:hover, h2.accordion4:hover, h2.accordion5:hover, h2.accordion6:hover, h2.accordion7:hover, h2.accordion8:hover, h2.accordion9:hover, h2.accordion10:hover, h2.accordion11:hover, h2.accordion12:hover, h2.accordion13:hover, h2.accordion14:hover, h2.accordion15:hover, h2.accordion16:hover, h2.accordion17:hover, h2.accordion18:hover, h2.accordion19:hover, h2.accordion20:hover, h2.accordion21:hover { background:#9e3638; }
+
+div.accordion, div.accordion2, div.accordion3, div.accordion4, div.accordion5, div.accordion6, div.accordion7, div.accordion8, div.accordion9, div.accordion10, div.accordion11, div.accordion12, div.accordion13, div.accordion14, div.accordion15, div.accordion16, div.accordion17, div.accordion18, div.accordion19, div.accordion20, div.accordion21 { display: none; }
+	
+#interna-contato p {
+	text-align:right;}
+
+#interna-contato .pcol1 {
+	float:left;
+	width:170px;
+	margin:0 80px 0 0;}
+	
+#interna-contato .pcol2 {
+	float:left;
+	width:350px;
+	margin:0 20px 0 0;
+	padding:20px 0 0 0;}
+	
+#interna-contato .pcol3 {
+	float:right;}
+
+label {
+	display:block;
+	color:#999}
+
+input[type=text], textarea, select {
+	width:100%;
+	display:block;
+	padding:7px;
+	background:#e5e5e5;
+	border:1px solid #dbdbdb;
+	margin:0 0 20px 0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-style:italic;
+	font-size:13px;
+	resize:none;}
+	
+input[type=radio] {
+	display:inline;
+	float:left;}
+	
+input[type=text]:focus, textarea:focus {
+	background:#FFF;}
+	
+input[type=text]:hover, textarea:hover {
+	opacity:0.6;}
+	
+input[type=submit] {
+	background:#6f3738;
+	padding:7px;
+	color:#FFF;
+	font-weight:bold;
+	cursor:pointer;
+	transition: background 0.3s linear;
+	-moz-transition: background 0.3s linear;
+	-webkit-transition: background 0.3s linear;
+	-o-transition: background 0.3s linear; }
+	
+input[type=submit]:hover {
+	background:#9e3638;}
+	
+.error {
+	color:#C00;
+	margin:0 0 10px 0;}
+	

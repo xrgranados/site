@@ -1,0 +1,3 @@
+<div id="footer">
+EQUUS &#0149; TODOS LOS DERECHOS RESERVADOS, 2013.
+</div>

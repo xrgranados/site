@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#header {
+	background:url(../img/bg-header.png) repeat;
+	position:relative;
+	z-index:1;
+	height:100px;}
+	
+#header .logo {
+	margin:17px 0 0 0;
+	display:block;
+	width:292px;
+	height:65px;
+	float:left;
+	background:url(../img/logo.png) no-repeat top;}
+	
+#header .logo:hover {
+	background-position:bottom;}
+	
+#header .redes {
+	width:310px;
+	margin:17px 0 0 0;
+	float:right;}
+	
+#header .facebook,  #header .ig,  #header .twitter, #header .pinterest, #header .youtube {
+	background:url(../img/ico-redes.png) no-repeat;
+	display:block;
+	width:28px;
+	height:28px;
+	float:left;
+	margin:0 0 0 10px;
+	transition: background 0.3s linear;
+	-moz-transition: background 0.3s linear;
+	-webkit-transition: background 0.3s linear;
+	-o-transition: background 0.3s linear;}
+	
+#header .facebook {
+	background-position:1px;}
+	
+#header .facebook:hover {
+	background-color:#3b5997;}
+	
+#header .ig {
+	background-position:-26px;}
+	
+#header .ig:hover {
+	background-color:#af8e83;}
+	
+#header .twitter {
+	background-position:-53px;}
+	
+#header .twitter:hover {
+	background-color:#1ab2e8;}
+	
+#header .pinterest {
+	background-position:-82px;}
+	
+#header .pinterest:hover {
+	background-color:#c9232d;}
+	
+#header .youtube {
+	background-position:-109px;}
+	
+#header .youtube:hover {
+	background-color:#ef403f;}
+	
+#header .menu {
+	margin:-15px 0 0 0;
+	font-weight:bold;
+	text-transform:uppercase;
+	font-size:12px;
+	letter-spacing:-1px;
+	float:right;}
+	
+#header .menu a {
+	color:#FFF;
+	text-decoration:none;}
+	
+#header .menu a:hover {
+	color:#ede6dc;}
+	
+#header .menu ul {
+	list-style-type:none;}
+	
+#header .menu ul li {
+	padding:5px 0 14px 0;
+	float:left;
+	margin:0 0 0 20px;}
+	
+#header .menu ul ul {
+	background:#FFF;
+	padding:10px;
+	z-index:2000;
+	width:80px;
+	position: absolute;
+	top: 100px;
+	visibility: hidden;
+	font-size:13px;
+	display:block;
+}
+
+#header .menu ul ul li {
+	font-size:12px;
+	padding:0;
+	margin:0}
+
+#header .menu ul ul li a {
+	color:#333;
+	display:block;
+	padding:3px 3px 3px 3px;} 
+
+#header .menu ul li:hover ul {
+	visibility:visible;
+}
+	
+#header .like {
+	float: right;
+	margin-top: 5px;
+	margin-right: -25px
+}
+	
