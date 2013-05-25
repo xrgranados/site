@@ -114,8 +114,10 @@ $(document).ready(function() {
             </a>
             
             
-            <a href="http://facebook.com/equusjeanstyle" target="_blank"><h3>Re<span class="grey">vista</span></h3></a>
-            <span class="url"><a href="http://facebook.com/equusjeanstyle" target="_blank"></a></span>
+            <a href="revista.php" target="_blank"><h3>Re<span class="grey">vista</span></h3></a>
+            <span class="url"><a href="revista.php" target="_blank"></a></span>
+
+            <a href="revista.php"> <img src="img/portada_revista.png" height="485" width="318"></a>
             
             <!--<div id="fb-root" style="margin:17px 0 0 0;"></div>
 <script>(function(d, s, id) {
@@ -125,8 +127,8 @@ $(document).ready(function() {
   js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=169361536467128";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-<div class="fb-like-box" data-href="http://www.facebook.com/Equus.guatemala" data-width="318" data-height="485" data-show-faces="true" data-stream="false" data-border-color="#FFF" data-header="true"></div>
-        </div>-->
+<div class="fb-like-box" data-href="http://www.facebook.com/Equus.guatemala" data-width="318" data-height="485" data-show-faces="true" data-stream="false" data-border-color="#FFF" data-header="true"></div>-->
+        </div>
         
         <div class="clear"></div>
         

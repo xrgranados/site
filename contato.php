@@ -1,9 +1,9 @@
 <!DOCTYPE HTML>
-<html lang="pt-br">
+<html lang="es-gt">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="keywords" content="jeans, jeanstyle, equus jeans, equus">
-<title>Equus . Coleção Inverno 2013</title>
+<title>Equus &#0149; Contactenos</title>
 <?php include_once("include/scripts.php"); ?>
 </head>
 
@@ -17,17 +17,22 @@
     
     <div id="container2">
     <div style="width:490px; float:left">
-    <h1>Contato</h1>
-    
-    <h3>Varejo/Consumidoras</h3>
-    
-    <h2>Tel.: +55 (11) 2797 9999</h2>
-<h2><a href="mailto:contato@equus.com.br" style="color:#FFF;">contato@equus.com.br</a></h2>
+    <h1>Contacto</h1>
 
-<h3>Atacado</h3>
+    <h3>Atención al Cliente</h3>
     
-    <h2>Tel.: +55 (11) 2797 9999</h2>
-<h2><a href="mailto:atacado@equus.com.br" style="color:#FFF;">atacado@equus.com.br</a></h2>
+    <h2>Tel.: <a href="callto:+50224913999" style="color:#FFF;">+502 2491-3999</a></h2>
+<h2><a href="mailto: info1@equus.gt" style="color:#FFF;">info1@equus.gt</a></h2>
+    
+    <h3>C.C. Miraflores</h3>
+    
+    <h2>Tel.: +502 2474-8308 / 2474-2557</h2>
+<h2><a href="mailto:miraflores@equus.gt" style="color:#FFF;">miraflores@equus.gt</a></h2>
+
+<h3>C.C. Pradera Concepción</h3>
+    
+    <h2>Tel.: +502 6637-1012 / 6637-1010</h2>
+<h2><a href="mailto:pradear@equus.gt" style="color:#FFF;">pradera@equus.gt</a></h2>
     </div>
     
     <div style="width:490px; float:right">
@@ -38,10 +43,7 @@
 <div class="clear"></div>
 
         
-        <div id="footer">
-        
-        EQUUS . TODOS OS DIREITOS RESERVADOS, 2013.
-        </div>
+     <?php include_once("include/footer.php"); ?>
     
     </div>
     

@@ -6,14 +6,88 @@
 <title>Equus &#0149; Tiendas</title>
 <meta property="og:title" content="EQUUS • Tiendas" />
 <?php include_once("include/scripts.php"); ?>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+
+           <script>
+              function initialize() {
+                var mapOptions = {
+                  zoom: 10,
+                  center: new google.maps.LatLng(14.581922,-90.508118),
+                  mapTypeId: google.maps.MapTypeId.ROADMAP
+                }
+                var map = new google.maps.Map(document.getElementById('map_canvas'),
+                                              mapOptions);
+
+                setMarkers(map, tiendas);
+          }
+
+          /**
+           * Data for the markers consisting of a name, a LatLng and a zIndex for
+           * the order in which these markers should display on top of each
+           * other.
+           */
+          var tiendas = [
+            ['EQUUS Miraflores', 14.622000,-90.553000, 2],
+            ['EQUUS Pradera Concepcion', 14.552328,-90.453427, 1],
+          ];
+
+          function setMarkers(map, locations) {
+            // Add markers to the map
+
+            // Marker sizes are expressed as a Size of X,Y
+            // where the origin of the image (0,0) is located
+            // in the top left of the image.
+
+            // Origins, anchor positions and coordinates of the marker
+            // increase in the X direction to the right and in
+            // the Y direction down.
+            var image = new google.maps.MarkerImage('img/logoweb.png',
+                // This marker is 20 pixels wide by 32 pixels tall.
+                new google.maps.Size(100, 100),
+                // The origin for this image is 0,0.
+                new google.maps.Point(0,0),
+                // The anchor for this image is the base of the flagpole at 0,32.
+                new google.maps.Point(0, 32));
+            
+            var shape = {
+                coord: [1, 1, 1, 20, 18, 20, 18 , 1],
+                type: 'poly'
+            };
+            for (var i = 0; i < locations.length; i++) {
+              var beach = locations[i];
+              var myLatLng = new google.maps.LatLng(beach[1], beach[2]);
+              var marker = new google.maps.Marker({
+                  position: myLatLng,
+                  map: map,
+                  icon: image,
+                  shape: shape,
+                  title: beach[0],
+                  zIndex: beach[3]
+              });
+            }
+          }
+        </script>
+          <style type="text/css">
+
+            #map_canvas {
+              
+              width: 100%;
+              height: 400px;
+              border:double 4px #fff;
+              -webkit-border-radius: 4px;
+                 -moz-border-radius: 4px;
+                      border-radius: 4px;   
+            }
+
+        </style>
 </head>
 
-<body>
+<body onload="initialize()">
 
 <?php include_once("include/header.php"); ?>
 
 <div class="fluid_container">
-<iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.br/maps/ms?msa=0&amp;msid=212815780075908874835.0004ca9cb1c74ab7d6a30&amp;gl=BR&amp;hl=en_uk&amp;ie=UTF8&amp;ll=-15.677351,-49.258528&amp;spn=28.464685,21.524375&amp;t=m&amp;output=embed"></iframe></div>
+<div id="map_canvas"></div>
     
     
     <div id="container2"><h1>Equus Guatemala</h1>  

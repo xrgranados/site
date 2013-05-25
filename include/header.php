@@ -25,7 +25,7 @@
                     	<li><a href="campanha-verano.php">Campaña</a></li>
                         <li><a href="lookbook.php">Lookbook</a></li>
                         <li> <a href="campanha.php">Preview Invierno 2013</a> </li>
-                        <li><a href="especial-jeans.php">Especial Jeans</a></li>
+                        <li><a href="especial-jeans-verano.php">Especial Jeans</a></li>
                 	</ul>
                 </li>
                 <li><a href="equus-special.php">EQUUS SPECIAL</a></li>
