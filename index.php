@@ -141,7 +141,7 @@ $(document).ready(function() {
         </div>
         
         <div class="col2">
-        <span class="mais"><a href="http://www.facebook.com/EQUUS.Guatemala" target="_blank">visita nuestro fanpage</a></span>
+        <span class="mais"><a href="revista.php">ver revista digital</a></span>
         </div>
         
         <div class="clear"></div>

@@ -23,7 +23,7 @@
                 <li><a href="#">COLECCIÓN</a>
                 	<ul>
                     	<li><a href="campanha-verano.php">Campaña</a></li>
-                        <li><a href="lookbook.php">Lookbook</a></li>
+                        <li><a href="lookbook-verano.php">Lookbook</a></li>
                         <li> <a href="campanha.php">Preview Invierno 2013</a> </li>
                         <li><a href="especial-jeans-verano.php">Especial Jeans</a></li>
                 	</ul>

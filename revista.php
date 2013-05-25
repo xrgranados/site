@@ -445,7 +445,7 @@ $('#custom-link-13').click(function(e){
   
   <div class="clear"></div>
   
-   <h2>Outras edições</h2>
+   <h2>Otras Ediciones</h2>
 
   <?php include_once("include/revista.php"); ?>
   <script type="text/javascript">
