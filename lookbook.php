@@ -13,8 +13,8 @@
 				height: '947px',
 				fx: 'scrollHorz',
 				time: 7000,
-				thumbnails: true,
-				pagination: true
+				thumbnails: false,
+				pagination: false
 			});
 
 		});
@@ -27,7 +27,7 @@
 <?php include_once("include/header.php"); ?>
 
 <div class="fluid_container">
-<img src="img/banner-lookbook.jpg" width="100%" height="100%"></div>
+<img src="img/banner-lookbook-inv.jpg" width="100%" ></div>
     
     
     <div id="container2">

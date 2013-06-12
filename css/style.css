@@ -14,25 +14,31 @@
 	border:0;}
 
 body {
-	background:url(../img/bg-body.jpg) no-repeat top center;
+	/*background: #fff url(../img/bg-body.png) no-repeat center;*/
+	background: #fff url(../img/bg-body2.png);
 	font-family:'ApexBook', Arial, Helvetica, sans-serif;
 	font-size:14px;
-	color:#54484c;}
+	color:#54484c;
+	margin:100px 0 0 0;
+	padding:0;}
 	
-#container {
-	width:1000px;
-	margin:0 auto;}
-	
-#container2 {
-	width:1000px;
-	margin:20px auto;}
-
 a {
-	color:#b3242c;
-	text-decoration:none;}
+	color:#54484c;
+	text-decoration: none;}
 	
 a:hover {
-	text-decoration:underline;}
+	color:#dbc451;
+	text-decoration: none;
+}
+
+a h1, a h2, a h3 {
+	text-decoration: none;
+}
+
+a h1:hover {
+	color:#dbc451;
+	text-decoration: none;
+}
 	
 img:hover {
 	opacity:0.85;}
@@ -51,12 +57,12 @@ h1, h2, h3 {
 h1 {
 	background:url(../img/ico-arrow.gif) no-repeat left;
 	padding:0 0 0 35px;
-	color:#736754;
+	color:#323232;
 	margin:5px 0;}
 	
 h2 {
 	display:block;
-	background:#6f3738;
+	background:#323232;
 	text-align:center;
 	color:#FFF;
 	font-size:18px;
@@ -66,23 +72,51 @@ h2 {
 h3 {
 	margin:40px 0 -10px 0;
 	font-size:38px;
-	color:#6f3738;
+	color:#323232;
 	text-transform:uppercase;
 	border-top:3px solid #d6d6d6}
+
+
 
 h4 {
 	margin:0 0 -10px 0;
 	font-size:18px;
-	color:#6f3738;
+	color:#323232;
 	text-transform:uppercase;
 	border-bottom:3px solid #d6d6d6}
+
+dd {
+	margin-left:5px}
+
+ul, li, ol {
+	list-style: none;
+}
+
+#container {
+	width:995px;
+	margin:0 auto;}
+	
+#container2 {
+	width:995px;
+	margin:20px auto;}
+
+#container3 {
+	width:427px;
+	margin:20px auto;}
+
+#coontainertest {
+	width:400px;
+	margin:20px auto;}
+
+
 	
 .intro {
 	font-family:"ApexBook", "Times New Roman", Times, serif;
 	font-weight:normal;
 	font-style:italic;
 	font-size:20px;
-	color:#b3242c;}	
+	color:#323232;
+	text-align: justify;}	
 	
 #footer {
 	margin:40px 0;
@@ -92,7 +126,7 @@ h4 {
 	font-size:11px;	}
 	
 strong {
-	color:#b3242c;
+	color:#323232;
 	font-weight:bold;}
 	
 
@@ -133,17 +167,28 @@ strong {
   width: 60px;
 }
 #social .btn_youtube:after {
-  width: 70px;
+  width: 55px;
 }
 #social .btn_twitter:after {
-  width: 80px;
+  width: 55px;
 }
 #social .btn_facebook,
 #social .btn_googlemas {
-  width: 55px;
+  width: 75px;
 }
 #social .btn_facebook:after {
   margin-top: -25px;
   width: 55px;
+}
+
+.tiendas {
+	position: absolute;
+	top: 575px;
+	width: 700px;
+	margin-left: 250px;
+}
+.tiendas  ul li {
+	float: left;
+	margin: 5px 5px 5px 5px;
 }
 	

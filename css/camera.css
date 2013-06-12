@@ -4,20 +4,38 @@
 *
 **************************/
 
-.fluid_container {
-			margin: 0 ;
-			max-width: 2000px;
-			width: 100%;
+.fluid_container_portada {
+			margin: 0;
+			max-width: 1366px;
+			width: 102%;
 			position:relative;
 			z-index:0;
-			margin:-100px 0 0 0;}
+			margin:-100px auto 0 auto;
+			padding:0;}
+
+.fluid_container {
+			margin: 0 ;
+			max-width: 1030px;
+			width: 102%;
+			position:relative;
+			z-index:0;
+			margin:-100px auto 0 auto;
+			padding:0;}
 			
 .fluid_container2 {
 			margin: 0 ;
 			max-width: 1000px;
-			width: 100%;
+			width: 102%;
 			position:relative;
 			z-index:0;}
+
+.fluid_container3 {
+			margin: 0 ;
+			max-width: 427px;
+			width: 102%;
+			position:relative;
+			z-index:0;}
+		
 		
 .camera_wrap a, .camera_wrap img, 
 .camera_wrap ol, .camera_wrap ul, .camera_wrap li,

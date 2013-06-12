@@ -1,12 +1,15 @@
 <!DOCTYPE HTML>
-<html lang="pt-br">
+<html lang="es-gt">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="keywords" content="jeans, jeanstyle, equus jeans, equus">
 <title>Equus &#0149; Tiendas</title>
 <meta property="og:title" content="EQUUS • Tiendas" />
+<link href="css/tiendas.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/slider.js"></script>
 <?php include_once("include/scripts.php"); ?>
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+
 
            <script>
               function initialize() {
@@ -86,15 +89,14 @@
 
 <?php include_once("include/header.php"); ?>
 
-<div class="fluid_container">
-<div id="map_canvas"></div>
+<div class="fluid_container_portada">
+<iframe width="100%" height="400" frameborder="1" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.br/maps/ms?msa=0&amp;msid=215319691967416975327.0004dddef3c3c43e5a133&amp;hl=es-419&amp;ie=UTF8&amp;t=m&amp;ll=7.536764,-23.203125&amp;spn=65.82078,263.671875&amp;z=3&amp;output=embed"></iframe>
     
-    
-    <div id="container2"><h1>Equus Guatemala</h1>  
+    <div id="container2"><h1>EQUUS Guatemala</h1>  
     
     <div class="lojas">
     
-<script>
+<script type="text/javascript">
   $(document).ready(function(){
   $('h2.accordion20').click(function(){
     $(this).parent().find('div.accordion20').slideToggle("slow");
@@ -106,25 +108,33 @@
   <div class="accordion20">
     
     <p><h4><strong>Pradera Concepción</strong></h4><br>
-C.C. Pradera Concepción, L.138<br>
-Km 15 . 5 Carretera a El Salvador <br>
+<a href="http://www.google.com/mapmaker?iwloc=0_0&fmi=0_0&gw=55&editids=4qdKoJTzV5DoLnMKPf&ll=14.551993,-90.453545&spn=0.000641,0.001137&z=20&lyt=large_map&htll=14.551876,-90.453545&hyaw=136.65639779920988" target="_blank"  class="mapa">C.C. Pradera Concepción, L.138<br>
+Km 15 . 5 Carretera a El Salvador</a> <br>
 Finca Condado Concepción<br>
 Tel: (502) 6637-1010 & 6637-1012<br>
 <a href="mailto:pradera@equus.gt">pradera@equus.gt</a><br>
 <a href="http://www.equus.gt" target="_blank">www.equus.gt</a></p>
 
 <p><h4><strong>Miraflores</strong></h4><br>
-C.C. Miraflores, L.166<br>
-21 avenida 4-32 zona 11<br>
+<a href="http://www.google.com/mapmaker?iwloc=0_0&fmi=0_0&gw=55&editids=4qdKoJTf4vuNUdGegh&ll=14.621476,-90.553023&spn=0.000641,0.001137&z=20&lyt=large_map&htll=14.621359,-90.553023&hyaw=136.65639779920988" target="_blank"  class="mapa">C.C. Miraflores, L.166<br>
+21 avenida 4-32 zona 11</a><br>
 Tel: (502) 2474-8308 & 2474-2557<br>
 <a href="mailto:miraflores@equus.gt">miraflores@equus.gt</a><br>
 <a href="http://www.equus.gt" target="_blank">www.equus.gt</a></p>
+
+<div class="clear"></div>
+
+<div style="margin: 0 auto 0 auto;">
+       <?php include_once("include/tiendas.php"); ?>
+ </div>
+
+
 </div>
     </div>
     
-<div class="clear"></div>
 
-    <h1>Equus Brasil</h1>  
+  <div class="clear"></div>
+    <h1>EQUUS Brasil</h1>  
     
     <div class="lojas">
 
@@ -826,7 +836,7 @@ Tel: (63) 3215.8181<br>
         
 <?php include_once("include/footer.php"); ?> 
     
-    </div>
+</div>
     
 </body>
 </html>

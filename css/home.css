@@ -42,6 +42,13 @@
 	
 .grey {
 	color:#323232;}
+
+.grey2 {
+	color:#adadad;}
+
+.grey2:hover {
+	color:#dbc451;
+}
 	
 .url {
 	margin:-7px 0 10px 0;
@@ -64,19 +71,19 @@
 	margin:0 10px 0 0;}
 	
 #blog .titulo {
-	font-family:"Didot", "Times New Roman", Times, serif;
+	font-family:"ApexBook", "Times New Roman", Times, serif;
 	font-style:italic;
 	line-height:90%;
 	display:block;
 	margin:0 0 8px 0;
-	font-size:25px;}
+	font-size:17px;}
 	
 #blog .p {
 	padding:10px 0 0 0;}
 	
 .mais {
 	font-size:18px;
-	font-family:"Didot", "Times New Roman", Times, serif;
+	font-family:"ApexBook", "Times New Roman", Times, serif;
 	font-style:italic;
 	text-align:right;
 	padding:5px 40px;
@@ -110,9 +117,4 @@
 #lbCaption, #lbNumber { margin-right: 71px; }
 #lbCaption { font-weight: bold; }
 
-	
-	
-	
-	
 
-	

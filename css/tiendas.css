@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#lookbook {
+	margin:0 auto;}
+
+#container-lookbook {
+	position:relative;}
+	
+.sliderbutton {
+	float:left; 
+	width:64px; 
+	height:100px; 
+	cursor:pointer}
+	
+#slideleft {
+	margin:0 20px 0 0;
+	background:url(../img/ico-left.png);
+	opacity:0.4}
+	
+#slideright {
+	margin:0 0 0 20px;
+	background:url(../img/ico-right.png);
+	opacity:0.4}
+
+#slideleft:hover, #slideright:hover {
+	opacity:1}
+	
+#slider {
+	float:left; 
+	position:relative; 
+	overflow:auto;
+	top:7px; 
+	width:825px; 
+	height:130px}
+	
+#slider ul {
+	position:absolute; 
+	list-style:none; 
+	top:0; 
+	left:0}
+	
+#slider li {
+	float:left;
+	width:1000px; 
+	height:144px }
+
+#slider li .col {
+	float: left;
+	padding: 22px;
+
+}
+	
+.pagination {
+	display:none;}

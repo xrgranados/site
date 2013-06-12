@@ -8,18 +8,18 @@
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
         <script src="jqtouch/jqtouch.min.js" type="application/x-javascript" charset="utf-8"></script>
         <!--GOOGLE ANALYTICS-->
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-29190135-1']);
-  _gaq.push(['_trackPageview']);
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-34163861-1']);
+            _gaq.push(['_trackPageview']);
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script>
-<!--GOOGLE ANALYTICS-->
+            (function() {
+              var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+              ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+              var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+
         <script type="text/javascript" charset="utf-8">
             var jQT = new $.jQTouch({
                 icon		: 'codropsIcon.png',
@@ -58,7 +58,7 @@
     </head>
     <body>
         <div id="about" class="selectable">
-        <p><a href="#" class="grayButton goback">Voltar</a></p>
+        <p><a href="#" class="grayButton goback">Volver</a></p>
 	  
 
   <h2>GUATEMALA</h2>
@@ -67,38 +67,42 @@
 C.C. Pradera Concepción, L.138<br>
 Km 15 . 5 Carretera a El Salvador <br>
 Finca Condado Concepción<br>
-Tel: (502) 6637-1010 & 6637-1012<br>
+Tel: (502) 6637-1010 & <a href="callto:+50266371012">6637-1012</a><br>
 <a href="mailto:pradera@equus.gt">pradera@equus.gt</a><br>
-<a href="http://www.equus.gt" target="_blank">www.equus.gt</a></p>
+</p>
 
 <p><strong>Miraflores</strong><br>
 C.C. Miraflores, L.166<br>
 21 avenida 4-32 zona 11<br>
-Tel: (502) 2474-8308 & 2474-2557<br>
+Tel: (502) <a href="callto:+50224748308">2474-8308</a> & 2474-2557<br>
 <a href="mailto:miraflores@equus.gt">miraflores@equus.gt</a><br>
-<a href="http://www.equus.gt" target="_blank">www.equus.gt</a></p>
+</p>
         </div>
         <!-- The list of albums -->
         <div id="albums_container" class="current">
             <div class="toolbar">
                 <h1>EQUUS &#0149; Guatemala</h1>
-                <a class="button slideup" id="infoButton" href="#about">Lojas</a>
+                <a class="button slideup" id="infoButton" href="#about">Tiendas</a>
             </div>
             <div><img src="banner.jpg" width="100%" height="auto" alt="Inverno 2013"></div>
             <div class="loader" style="display:none;"></div>
-          <ul id="albums" class="edgetoedge" style="display:none;">
+            <ul class="edgetoedge">
+            <li><a href="marca.html">MARCA</a></li>
+            <ul id="albums" class="edgetoedge" style="display:none;">
             </ul>
-             <ul>
+             
              <li><a href="http://www.equus.com.br/blog" target="_blank">BLOG</a></li>
-             <li><a href="http://www.facebook.com/equus.guatemala" target="_blank">FACEBOOK</a></li>
+             <li><a href="#" target="_blank">CONTACTO</a></li>
             </ul>
+         
+             
         </div>
         <!-- The list of images (thumbs) -->
         <div id="thumbs_container">
             <div class="toolbar">
-                <h1>Galeria</h1>
-                <a class="back" href="#albums_container">Voltar</a>
-                <a class="button slideup" id="infoButton" href="#about">Lojas</a>
+                <h1>Campaña</h1>
+                <a class="back" href="#albums_container">Volver</a>
+                <a class="button slideup" id="infoButton" href="#about">Tiendas</a>
             </div>
             <div class="loader" style="display:none;"></div>
             <ul id="thumbs" class="thumbView" style="display:none;">
@@ -107,9 +111,9 @@ Tel: (502) 2474-8308 & 2474-2557<br>
 		<!-- The single image container -->
         <div id="photo_container">
             <div class="toolbar">
-                <h1>Imagem</h1>
-                <a class="back" href="#thumbs_container">Voltar</a>
-                <a class="button slideup" id="infoButton" href="#about">Lojas</a>
+                <h1>Lookbook</h1>
+                <a class="back" href="#thumbs_container">Volver</a>
+                <a class="button slideup" id="infoButton" href="#about">Tiendas</a>
             </div>
             <div class="loader" style="display:none;"></div>
             <div id="theimage" class="singleimage"></div>

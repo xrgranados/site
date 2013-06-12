@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="pt-br">
+<html lang="es-gt">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="keywords" content="jeans, jeanstyle, equus jeans, equus">
@@ -19,7 +19,7 @@
 
 	<div id="container2">
   
-  <h1>Revista Moda Equus Diciembre/2012</h1>
+  <h1>Revista Moda EQUUS Diciembre/2012</h1>
       
      <div class="book_wrapper">
 			<a id="next_page_button"></a>

@@ -34,7 +34,7 @@ h2.accordion, h2.accordion2, h2.accordion3, h2.accordion4, h2.accordion5, h2.acc
 	-webkit-transition: background 0.3s linear;
 	-o-transition: background 0.3s linear; }
 
-h2.accordion:hover, h2.accordion2:hover, h2.accordion3:hover, h2.accordion4:hover, h2.accordion5:hover, h2.accordion6:hover, h2.accordion7:hover, h2.accordion8:hover, h2.accordion9:hover, h2.accordion10:hover, h2.accordion11:hover, h2.accordion12:hover, h2.accordion13:hover, h2.accordion14:hover, h2.accordion15:hover, h2.accordion16:hover, h2.accordion17:hover, h2.accordion18:hover, h2.accordion19:hover, h2.accordion20:hover, h2.accordion21:hover { background:#9e3638; }
+h2.accordion:hover, h2.accordion2:hover, h2.accordion3:hover, h2.accordion4:hover, h2.accordion5:hover, h2.accordion6:hover, h2.accordion7:hover, h2.accordion8:hover, h2.accordion9:hover, h2.accordion10:hover, h2.accordion11:hover, h2.accordion12:hover, h2.accordion13:hover, h2.accordion14:hover, h2.accordion15:hover, h2.accordion16:hover, h2.accordion17:hover, h2.accordion18:hover, h2.accordion19:hover, h2.accordion20:hover, h2.accordion21:hover { background:#dbc451; }
 
 div.accordion, div.accordion2, div.accordion3, div.accordion4, div.accordion5, div.accordion6, div.accordion7, div.accordion8, div.accordion9, div.accordion10, div.accordion11, div.accordion12, div.accordion13, div.accordion14, div.accordion15, div.accordion16, div.accordion17, div.accordion18, div.accordion19, div.accordion20, div.accordion21 { display: none; }
 	
@@ -57,10 +57,10 @@ div.accordion, div.accordion2, div.accordion3, div.accordion4, div.accordion5, d
 
 label {
 	display:block;
-	color:#999}
+	color:#323232}
 
 input[type=text], textarea, select {
-	width:100%;
+	width:80%;
 	display:block;
 	padding:7px;
 	background:#e5e5e5;
@@ -82,7 +82,7 @@ input[type=text]:hover, textarea:hover {
 	opacity:0.6;}
 	
 input[type=submit] {
-	background:#6f3738;
+	background:#353535;
 	padding:7px;
 	color:#FFF;
 	font-weight:bold;
@@ -93,7 +93,7 @@ input[type=submit] {
 	-o-transition: background 0.3s linear; }
 	
 input[type=submit]:hover {
-	background:#9e3638;}
+	background:#dbc451;}
 	
 .error {
 	color:#C00;

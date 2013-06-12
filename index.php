@@ -2,8 +2,11 @@
 <html lang="es-gt">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Equus &#0149; 2013</title>
+<title>EQUUS &#0149; Guatemala</title>
 <meta property="og:title" content="EQUUS • Guatemala" />
+<meta property="og:image" content="http://www.equus.gt/img/isotipo.png" />
+<meta property="og:description" content="EQUUS Jeanstiyle es una empresa brasileña, originaria de Sao Paulo, con estilo propio de confección, creatividad y alta calidad. Moda exclusiva brasileña para la mujer dinamica, moderna y glamorosa!">
+
 <?php include_once("include/scripts.php"); ?>
 <!--SLIDESHOW CAMERA-->
 <script>
@@ -12,7 +15,8 @@
 			jQuery('#camera_wrap_1').camera({
 				thumbnails: false,
 				pagination:false,
-				height: '450px',
+        width: '1366px',
+				height: '600px',
 				fx: 'scrollBottom',
 				time: 2000
 			});
@@ -26,7 +30,7 @@ $(document).ready(function() {
 	$(".instagram").instagram({
     hash: 'equusjeanstyle',
 	 show: '6',
-    clientId: '9149bbf3d910498aa35d46ea7081e123'
+    clientId: 'c0876d4dbea74bc5b72260915bfa3a80'
     });
    
 	});
@@ -46,13 +50,13 @@ $(document).ready(function() {
 
 <?php include_once("include/header.php"); ?>
 
-<div class="fluid_container">
+<div class="fluid_container_portada">
         <div class="camera_wrap camera_coffee_skin" id="camera_wrap_1">
-            <div data-src="img/banner_equus01.jpg" data-link="http://www.equus.com.br/blog/?p=7420">
+            <div data-src="img/banner_01.jpg" data-link="campanha.php">
             </div>
-             <div data-src="img/banner_equus02.jpg">
+             <div data-src="img/banner_02.jpg">
             </div>
-             <div data-src="img/banner_equus03.jpg">
+             <div data-src="img/banner_03.jpg">
             </div>
         </div>
     </div>
@@ -61,51 +65,19 @@ $(document).ready(function() {
     <div id="container">
   <div class="col1">
         <a href="campanha.php"><h1>Preview Invierno 2013</h1>
-          <div class="destaque1"></div></a>
+          <div class="destaque1"  ></div></a>
             
-                       
           
-          <a href="http://equus.com.br/blog" target="_blank"><h3>Equus<span class="grey">Blog</span></h3></a>
-          <span class="url"><a href="http://equus.com.br/blog" target="_blank">equus.com.br/blog
-          </a></span>
-            
-               
-
-<div id="blog">
-<div style="float:left; margin:0 10px 0 0">
-<a href="http://www.equus.com.br/blog/?p=8372#more" class="more" target="_blank"><img width="138" height="138" src="http://www.equus.com.br/blog/wp-content/uploads/2013/05/destaque-blog214.jpg" class="attachment-175x138 wp-post-image" alt="destaque-blog2" title="destaque-blog2" /> </a>
-</div>
-
-<span class="titulo"><a href="http://www.equus.com.br/blog/?p=8372#more" class="more" target="_blank">Jeans para todas! </a></span> 
-<div class="clear"></div>
-</div>
-<div id="blog">
-<div style="float:left; margin:0 10px 0 0">
-<a href="http://www.equus.com.br/blog/?p=8341#more" class="more" target="_blank"><img width="138" height="138" src="http://www.equus.com.br/blog/wp-content/uploads/2013/05/destaque-blog213.jpg" class="attachment-175x138 wp-post-image" alt="destaque-blog2" title="destaque-blog2" /> </a>
-</div>
-
-<span class="titulo"><a href="http://www.equus.com.br/blog/?p=8341#more" class="more" target="_blank">Para usar já: Camisaria </a></span> 
-<div class="clear"></div>
-</div>
-<div id="blog">
-<div style="float:left; margin:0 10px 0 0">
-<a href="http://www.equus.com.br/blog/?p=8346#more" class="more" target="_blank"><img width="138" height="138" src="http://www.equus.com.br/blog/wp-content/uploads/2013/05/destaque-blog211.jpg" class="attachment-175x138 wp-post-image" alt="destaque-blog2" title="destaque-blog2" /> </a>
-</div>
-
-<span class="titulo"><a href="http://www.equus.com.br/blog/?p=8346#more" class="more" target="_blank">Nós amamos: Estampa de cruz </a></span> 
-<div class="clear"></div>
-</div>
             
       </div>
         
         <div class="col1">
-        <a href="lookbook.php"><h1>Lookbook</h1>
-          <div class="destaque2"></div>
+        <a href="lookbook-verano.php"><h1>Lookbook</h1>
+          <div class="destaque2" ></div>
             </a>
             
             
-            <a href="http://instagram.com/equus_gt" target="_blank"><h3>Insta<span class="grey">Gram</span></h3></a>
-            <span class="url"><a href="http://instagram.com/equus_gt" target="_blank">instagram.com/equus_gt</a></span>
+            <a href="http://instagram.com/equus_gt" target="_blank"><h3 class="grey">Insta<span class="grey2">Gram</span></h3></a>
             <div class="instagram"></div>
         </div>
         
@@ -114,7 +86,7 @@ $(document).ready(function() {
             </a>
             
             
-            <a href="revista.php" target="_blank"><h3>Re<span class="grey">vista</span></h3></a>
+            <a href="revista.php" target="_blank"><h3 class="grey">Re<span class="grey2" >vista</span></h3></a>
             <span class="url"><a href="revista.php" target="_blank"></a></span>
 
             <a href="revista.php"> <img src="img/portada_revista.png" height="485" width="318"></a>
@@ -143,13 +115,15 @@ $(document).ready(function() {
         <div class="col2">
         <span class="mais"><a href="revista.php">ver revista digital</a></span>
         </div>
+
+
         
         <div class="clear"></div>
   
         
 <?php include_once("include/footer.php"); ?>        
     
-    </div>
+</div>
     
 </body>
 </html>

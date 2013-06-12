@@ -1,7 +1,8 @@
 <meta name="keywords" content="jeans, jeanstyle, moda, fashion, glamour">
+
+
 <meta property="og:site_name" content="EQUUS • Guatemala" />
-<meta property="og:image" content="http://www.equus.gt/img/isotipon.png" />
-<meta property="og:description" content="EQUUS Jeanstiyle es una empresa brasileña, originaria de Sao Paulo, con estilo propio de confección, creatividad y alta calidad. Moda exclusiva brasileña para la mujer dinamica, moderna y glamorosa!">
+<link rel="image_src" href="http://www.equus.gt/img/isotipo.png" />
 <meta property="fb:page_id" content="340711719346037" />
 <meta property="fb:admins" content="100000213007561, 1100214107" />
 <meta property="og:url" content="http://www.equus.gt/" />
@@ -9,9 +10,11 @@
 <meta name="application-name" content="EQUUS Guatemala"/> 
 <meta name="msapplication-TileColor" content="#ffffff"/> 
 <meta name="msapplication-TileImage" content="http://www.equus.gt/img/isotipo.png"/>
+<meta name="google" content="notranslate" />
+<meta name="robots" content="index, follow" />
 
 <link href="css/style.css" rel="stylesheet" type="text/css" />
-<link rel="shortcut icon" href="img/favicon.gif" />
+<link rel="shortcut icon" href="http://www.equus.gt/img/isotipo.png" />
 <link rel="image_src" href="img/facebook-destaque.jpg" />
 <script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
 <script type='text/javascript' src='js/jquery.mobile.customized.min.js'></script>
@@ -38,15 +41,7 @@
 </script> 
 <!--Fim Script Browser upadate-->
 
-<!--MOBILE-->
-<script type="text/javascript">
 
-if (screen.width <= 699) {
-document.location = "mobile/index.html";
-}
-//
-</script>
-<!--MOBILE-->
 
 <!--GOOGLE ANALYTICS-->
   <script type="text/javascript">
@@ -63,3 +58,6 @@ document.location = "mobile/index.html";
 
   </script>
 
+<!--[if lt IE 9]>
+  <script src="js/html5shiv.js"></script>
+<![endif]-->

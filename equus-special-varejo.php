@@ -12,7 +12,7 @@
 <?php include_once("include/header.php"); ?>
 
 <div class="fluid_container">
-<img src="img/banner-equus-special.jpg" width="100%" height="100%"></div>
+<img src="img/banner-equus-special.jpg" width="100%" ></div>
     
     
     <div id="container2">

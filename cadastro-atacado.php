@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="pt-br">
+<html lang="es-gt">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="keywords" content="jeans, jeanstyle, equus jeans, equus">
@@ -23,7 +23,7 @@
 </div>
 
 <div class="col2">
-  <img src="img/banner-cadastro2.jpg" width="600" height="430" alt="Equus Cadastro"></div>
+  	<img src="img/banner-cadastro2.jpg" width="600" height="430" alt="Equus Cadastro"></div>
 
 
     <div class="clear"></div>
