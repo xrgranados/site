@@ -16,7 +16,7 @@
         </title>
         <meta http-equiv="Content-language" content="<?php bloginfo('language'); ?>" />
         <link rel="profile" href="http://gmpg.org/xfn/11" />
-        <link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/images/favico.gif" type="image/x-icon" />
+        <link rel="shortcut icon" href="http://www.equus.gt/img/favicon.png" type="image/x-icon" />
         <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('stylesheet_url'); ?>" />
         <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_url'); ?>/pagenavi-css.css" />
         <!--[if IE]><link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_url'); ?>/ie.css" /><![endif]-->

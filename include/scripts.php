@@ -1,8 +1,5 @@
 <meta name="keywords" content="jeans, jeanstyle, moda, fashion, glamour">
-
-
 <meta property="og:site_name" content="EQUUS • Guatemala" />
-<link rel="image_src" href="http://www.equus.gt/img/isotipo.png" />
 <meta property="fb:page_id" content="340711719346037" />
 <meta property="fb:admins" content="100000213007561, 1100214107" />
 <meta property="og:url" content="http://www.equus.gt/" />
@@ -13,9 +10,11 @@
 <meta name="google" content="notranslate" />
 <meta name="robots" content="index, follow" />
 
+<link rel="image_src" href="http://www.equus.gt/img/isotipo.png" />
 <link href="css/style.css" rel="stylesheet" type="text/css" />
-<link rel="shortcut icon" href="http://www.equus.gt/img/isotipo.png" />
-<link rel="image_src" href="img/facebook-destaque.jpg" />
+<link rel="shortcut icon" href="http://www.equus.gt/img/favicon.png" />
+<link rel="image_src" href="http://www.equus.gt/img/isotipo.png" />
+
 <script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
 <script type='text/javascript' src='js/jquery.mobile.customized.min.js'></script>
 <script type='text/javascript' src='js/jquery.easing.1.3.js'></script> 
